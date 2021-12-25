@@ -1,0 +1,21 @@
+name: ToolLevels
+main: NoobMCBG\ToolLevels\Main
+api: 3.0.0
+version: 2.0.0
+author: NoobMCBG
+description: LOL
+
+commands:
+  toollevel:
+    description: Lệnh Để Mở Menu ToolLevels
+    aliases: [dungcu, tool]
+  settool:
+    description: Lệnh Để Chỉnh Cấp ToolLevels
+    aliases: [settoollevel, setdungcu]
+  toptool:
+    description: Lệnh Để Mở Menu TOP Dụng Cụ
+    aliases: [toptoollevel, topdungcu]
+permissions:
+  toollevel.settool:
+    description: Quyền Lệnh /settool
+    default: op

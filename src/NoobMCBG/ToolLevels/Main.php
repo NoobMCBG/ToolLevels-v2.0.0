@@ -51,7 +51,7 @@ class Main extends PB implements L {
         $this->exp = new Config($this->getDataFolder() . "exp.yml", Config::YAML);
         $this->nextexp = new Config($this->getDataFolder() . "nextexp.yml", Config::YAML);
         $this->pickaxeleveling = new Config($this->getDataFolder() . "pickaxeleveling.yml", Config::YAML);
-        $this->getLogger()->info("\n\n\n E la bồ pờ lúc gin :>>");
+        $this->getLogger()->info("\n\n\n E la bồ pờ lúc gin :>>"); 
 	}
 
     public function getPickaxeLeveling(){

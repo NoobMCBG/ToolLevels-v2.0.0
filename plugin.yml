@@ -15,6 +15,9 @@ commands:
   toptool:
     description: Lệnh Để Mở Menu TOP Dụng Cụ
     aliases: [toptoollevel, topdungcu]
+  pickaxeleveling:
+    description: Lệnh Để Mở Menu Kĩ Năng PickaxeLeveling
+    aliases: [x3exp]
 permissions:
   toollevel.settool:
     description: Quyền Lệnh /settool
